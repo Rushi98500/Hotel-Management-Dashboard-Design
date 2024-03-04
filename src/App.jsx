@@ -20,16 +20,16 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-  {isAuthenticated ? (
-    <>
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/" element={<Navigate replace to="/dashboard" />} />
-      {/* Define other protected routes here */}
-    </>
-  ) : (
-    <Route path="*" element={<PageNotFound />} />
-  )}
-</Routes>
+        {isAuthenticated ? (
+          <>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Navigate replace to="/dashboard" />} />
+            {/* Define other protected routes here */}
+          </>
+        ) : (
+          <Route path="*" element={<PageNotFound />} />
+        )}
+      </Routes>
     </BrowserRouter>
   );
 }

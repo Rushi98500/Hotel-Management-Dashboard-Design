@@ -1,8 +1,38 @@
-# React + Vite
+# Hotel Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a comprehensive Hotel Management Dashboard designed to streamline hotel operations. It includes features for managing bookings, staff schedules, and providing analytics insights. The application is built with React.js and utilizes Vite for an optimized development experience.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js:** A JavaScript library for building user interfaces.
+- **Vite:** A modern frontend build tool that significantly improves the development experience.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Auth0:** A platform for authentication and authorization.
+- **Other Libraries:** See `package.json` for additional dependencies.
+
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+## Installation
+To run the Hotel-Management-Dashboard-Design application locally, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Rushi98500/Hotel-Management-Dashboard-Design.git
+   cd Hotel-Management-Dashboard-Design
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+
+3. **Run the Application**
+   ```bash
+   npm run dev
+ 
+
+
+
+
+
